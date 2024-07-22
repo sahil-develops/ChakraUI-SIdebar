@@ -149,12 +149,6 @@ width: 45px;
 }
 
 
-.no-scroll-bar{
- 
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
- 
-}
 
 .maindivdetails{
   display: flex;
@@ -165,6 +159,11 @@ width: 45px;
   
 }
 
+
+.spanDonut{
+  color: rgb(6, 225, 6);
+  font-weight: 600;
+}
 
 .divContainer{
   width: 100%;
@@ -188,8 +187,24 @@ width: 45px;
 
 .mainDivApp{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
   width: 100%;
-padding: 80px 40px;
+padding: 20px 40px;
+}
+
+/* Mobile devices (up to 480px) */
+@media (max-width: 480px) {
+  .mainDivApp {
+    padding: 60px 20px; /* Adjusted padding for mobile devices */
+    /* Add any other styles specific to mobile devices */
+  }
+}
+
+/* Laptop devices (1024px and above) */
+@media (min-width: 1024px) {
+  .mainDivApp {
+   width: calc(100%-280px);
+  }
 }
