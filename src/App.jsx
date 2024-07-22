@@ -8,8 +8,10 @@ function App() {
     <ChakraProvider>
       <Flex>
         <Sidebar />
-        <Box ml="240px" p="4" w="calc(100% - 290px)">
-          <p>Hello World</p>
+        <Box  p="4" w="calc(100% - 290px)">
+        <div className='mainDivApp'>
+          <p className=''>Hello World</p>
+        </div>
           {/* Your main content goes here */}
         </Box>
       </Flex>
