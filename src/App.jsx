@@ -24,6 +24,7 @@ function App() {
           </Box>
         </Flex>
       </BrowserRouter>
+      
     </ChakraProvider>
   );
 }
