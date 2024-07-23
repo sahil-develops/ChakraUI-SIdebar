@@ -8,7 +8,7 @@ import {
 import { CiSettings } from "react-icons/ci";
 import jsPDF from 'jspdf';
 import html2canvas from 'html2canvas';
-import Sidebar from '../Sidebar';
+
 
 
 

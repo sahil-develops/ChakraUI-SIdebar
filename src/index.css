@@ -196,10 +196,11 @@ padding: 20px 40px;
 
 /* Mobile devices (up to 480px) */
 @media (max-width: 480px) {
-  .mainDivApp {
+  .indexPage, .mainDivApp {
     padding: 60px 20px; /* Adjusted padding for mobile devices */
     /* Add any other styles specific to mobile devices */
   }
+  
 }
 
 /* Laptop devices (1024px and above) */

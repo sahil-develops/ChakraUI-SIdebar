@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div>Click on the dashboard in sidebar</div>
+    <div className='indexPage'>Click on the dashboard in sidebar</div>
   )
 }
 

@@ -1,9 +1,10 @@
 import React from 'react';
 import { ChakraProvider, Flex, Box } from '@chakra-ui/react';
-import Sidebar from './components/Sidebar';
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/Dashboard/Home';
 import Hero from './components/Hero/Hero';
+import Sidebar from './components/Sidebar/Sidebar';
 
 // Assuming you have a Home component
 
